@@ -10,6 +10,17 @@
     padding-top: 10px;
     margin-left: 10px;
     width: 7%;
+    filter: drop-shadow(0px 7x 21px #0A3871);
+    animation: rotar 10s linear infinite;
+}
+
+@keyframes rotar {
+    from{
+        transform: rotateY(180deg);
+    }
+    to {
+        transform:rotateY(-180deg)
+    }
 }
 
 main {
