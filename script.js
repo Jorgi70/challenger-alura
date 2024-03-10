@@ -12,18 +12,20 @@ const copy = document.querySelector(".copiar");
 
 function btnDesencriptar() {
     let mensaje = desencriptar(mensajes.value);
-    textarea.value = mensaje;   
+    textarea.value = mensaje; 
+    mensajes.style.backgroundImage =  "url(img/Muñeco.svg)";
 }
 
 function btnEncriptar() {
     let mensaje = encriptar(mensajes.value);
     mensajes.value = mensaje;
+    mensajes.style.backgroundImage = "none";
 }
 
 function btnCopiar(){
     if (mensajes.value != "") {
         navigator.clipboard.writeText(mensajes.value);
-        alert("Texto Copiado correctamente");
+        alert("Texto Copiado correctamente, pegarlo donde correspoda");
         mensajes.value = "";
     } else {
         alert("No se puede copiar por que no hay nada")
