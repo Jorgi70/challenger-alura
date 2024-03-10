@@ -35,10 +35,9 @@ main {
     }
 
 .tituloLogo{
-    font-family:'Inter';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     color: #0A3871;
 }
 
@@ -120,7 +119,7 @@ main {
     cursor: pointer;
     height: 67px;
     margin-left: 190px;
-    margin-top: 645px;
+    margin-top:540px;
     position: absolute;
     width: 270px;
     transition: .5s;
@@ -136,4 +135,20 @@ main {
 .informacion {
     color: #495057;
     font-size: 18px;
+}
+
+.cajaFooter {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.firmaFotter{
+    color: #495057;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
 }
