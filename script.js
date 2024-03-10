@@ -55,3 +55,5 @@ function encriptar() {
     textarea.value = "";
     return cifras
 }
+
+console.log("lala")
