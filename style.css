@@ -23,6 +23,7 @@ main {
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
+    resize: none;
 }
 
 ::placeholder { color: #0A3871;}
@@ -41,6 +42,7 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
+    resize: none;
     
 }
 
