@@ -148,6 +148,7 @@ main {
     display: flex;
     justify-content: center;
     font-family: "Quicksand", sans-serif;
+    font-size: 18px;
     font-optical-sizing: auto;
     font-weight: 100%;
     font-style: normal;
