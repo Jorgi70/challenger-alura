@@ -8,21 +8,29 @@ const copy = document.querySelector(".copiar");
 // La letra "o" es convertida para "ober"
 // La letra "u" es convertida para "ufat"
 
+// Se crea Funcion para los botones
+
 function btnDesencriptar() {
-    //console.log("Hola")
     let mensaje = desencriptar(mensajes.value);
     textarea.value = mensaje;   
 }
 
 function btnEncriptar() {
-    //console.log("Hola")
     let mensaje = encriptar(mensajes.value);
     mensajes.value = mensaje;
-    mensajes.style.backgroundImage = 
-
 }
 
+function btnCopiar(){
+    if (mensajes.value != "") {
+        navigator.clipboard.writeText(mensajes.value);
+        alert("Texto Copiado correctamente");
+        mensajes.value = "";
+    } else {
+        alert("No se puede copiar por que no hay nada")
+    }
+}
 
+// Se crea la funciones 
 
 function desencriptar() { // desencripta
     let cifras = mensajes.value
