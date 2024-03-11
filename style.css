@@ -40,7 +40,7 @@ main {
 
 .text-area {
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 21px;
     border: none;
     color: #0A3871;
     margin: 15px 0px;
@@ -64,6 +64,7 @@ main {
     border-radius: 24px;
     color: #0A3871;
     margin-left: 110px;
+    padding-left: 15px;
     resize: none;
     
 }
@@ -153,4 +154,23 @@ main {
     font-weight: 100%;
     font-style: normal;
     margin: 0px;
+}
+
+@media (max-width:1300px) {
+
+    main {
+        display: block;
+    }
+    
+    .cajaTitulo{
+        justify-content: flex-start;
+    }
+
+    .mensaje {
+        margin-left: 0px;
+    }
+
+    .firmaFotter{
+        display: block;
+    }
 }
