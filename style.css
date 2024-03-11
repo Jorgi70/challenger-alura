@@ -39,6 +39,7 @@ main {
 }
 
 .text-area {
+    font-family: 'Inter';
     font-size: 20px;
     border: none;
     color: #0A3871;
@@ -53,6 +54,7 @@ main {
     }
 
 .mensaje {
+    font-family: 'Inter';
     font-size: 25px;
     background-color: white;
     background-image: url(img/Muñeco.svg);
@@ -130,8 +132,9 @@ main {
 }
 
 .informacion {
+    font-family: 'Inter';
     color: #495057;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .cajaFooter {
