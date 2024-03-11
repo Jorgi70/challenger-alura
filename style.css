@@ -86,9 +86,9 @@ main {
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 50px;
     margin-left: 30px;
-    width: 270px;
+    width: 150px;
     transition: .5s;
 }
 
@@ -103,8 +103,8 @@ main {
     border-radius: 24px;
     color: white;
     cursor: pointer;
-    height: 67px;
-    width: 270px;
+    height: 50px;
+    width: 150px;
     transition: .5s;
 }
 
@@ -118,11 +118,11 @@ main {
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 50px;
     margin-left: 190px;
     margin-top:450px;
     position: absolute;
-    width: 270px;
+    width: 150px;
     transition: .5s;
 }
 
